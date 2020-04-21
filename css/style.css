@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'MuliBold' !important;
+    margin: 0;
+    padding: 0;
+}
+
+.big-title {
+    font-size: 100px;
+}
+
+.font-s {
+    font-size: 18px;
+}
+
+.color-1 {
+    color: #f9a826;
+}
+
+.color-2 {
+    color: #575988;
+}
+
+.section-a {
+    background-color: blue;
+}
+
+.card {
+    transition: all .2s;
+}
+
+.card:hover {
+    background-color: #f9a826;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 1px rgba(0, 0, 0, .2);
+}
+
+button {
+    background-color: #f9a826;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+@font-face {
+    font-family: Muli;
+    src: url('Muli-Medium.ttf');
+}
+
+@font-face {
+    font-family: MuliBold;
+    src: url('Muli-Bold.ttf');
+}
